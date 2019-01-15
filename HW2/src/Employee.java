@@ -6,6 +6,7 @@
  */
 public interface Employee 
 {
+	//PT -- need javadoc for public methods, too. -1
 	public int Pay();
 	public int ID();
 
