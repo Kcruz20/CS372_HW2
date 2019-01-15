@@ -10,6 +10,7 @@ public abstract class Person
 	int PhoneNum;
 	String newFaveCandy;
 
+	//PT -- need javadoc for public methods, too. -1
 	public void setName(String newName) 
 	{
 		Name = newName;
@@ -20,6 +21,7 @@ public abstract class Person
 	}
 	public void setAge(int newAge) 
 	{
+		//Validate the agem newPhone. -2
 		Age = newAge;
 	}
 	public int getAge()	
