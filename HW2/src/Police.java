@@ -11,6 +11,7 @@ public class Police extends Person implements Employee
 	
 	public Police(String newName, int newAge, int newPhone, Role R) 
 	{
+	//PT -- super(newName, newAge, newPhone); // and then remove the next three lines.
 		Name = newName;
 		Age = newAge;
 		PhoneNum = newPhone;
@@ -25,8 +26,10 @@ public class Police extends Person implements Employee
 	
 	public void setRole(Role R){ROLE = R;}
 	
+	//PT -- need javadoc for public methods, too. -1
 	public int ID() 
 	{
+		//PT -- Don't read the ID from the user. Let that happen in main. -1
 		Scanner input = new Scanner(System.in);
 		int ID = input.nextInt();
 		return ID;
