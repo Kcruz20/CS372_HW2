@@ -15,6 +15,7 @@ public class CityHall extends Building
 	
 	public ArrayList<String>Occupants = new ArrayList<String>();
 	
+	//PT -- need javadoc for public methods, too. -1
 	public void addOcc(String Name) 
 	{
 		Occupants.add(Name);
@@ -27,6 +28,7 @@ public class CityHall extends Building
 			System.out.printf(" %s \n",oc);
 	}
 
+	//PT -- missing functionality. -2
 	public void addEmployee(String policeOfficer) {
 		// TODO Auto-generated method stub
 		
